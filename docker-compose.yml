@@ -1,4 +1,9 @@
 version: '2.1'
+CONFIG_SERVICE_PASSWORD: iskech
+NOTIFICATION_SERVICE_PASSWORD: iskech
+STATISTICS_SERVICE_PASSWORD: iskech
+ACCOUNT_SERVICE_PASSWORD: iskech
+MONGODB_PASSWORD:
 services:
   rabbitmq:
     image: rabbitmq:3-management
